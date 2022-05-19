@@ -1,0 +1,109 @@
+.main {
+  margin-bottom: 1rem;
+  height: 300px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.main__img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.main__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__container-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.main__container-title h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+}
+.main__container-title h2 {
+  /* color: rgb(192, 192, 192); */
+  color: rgb(255, 0, 221);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.main__container-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+
+
+.main__container-info__nft-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.main__container-info__nft-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__container-info__nft {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container-info__nft-text h4 {
+    color: rgb(192, 192, 192);
+}
+.main__container-info__nft-text h5 {
+    color: rgb(34, 163, 114);
+    font: 500;
+    font-size: 16px;
+}
+
+.main__container-info__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main__container-info__social img {
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50px;
+padding: 1rem;
+transition: ease-out .5s all;
+
+}
+.main__container-info__social img:hover {
+  transform: scale(1.1);
+  transition: ease-in .2s all;
+  cursor: pointer;
+  border: 1px solid rgb(255, 0, 221);
+  filter: invert(18%) sepia(100%) saturate(2452%) hue-rotate(294deg) brightness(117%) contrast(128%);
+
+}
+

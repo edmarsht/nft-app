@@ -1,0 +1,51 @@
+.collection {
+  color: white;
+  padding: 0;
+  background-color: #1c1c1e;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 430px;
+}
+.collection__padding {
+  padding: 1rem;
+}
+
+.collection img {
+  width: 100%;
+  padding: 0;
+  
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.id {
+    color: rgb(192, 192, 192);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.price__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    object-fit: contain;
+    margin-top: 1rem;
+
+}
+
+.price__container img {
+  width: 15px;
+}
+
+.price {
+    font-weight: 600;
+
+}
