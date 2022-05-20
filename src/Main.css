@@ -13,6 +13,8 @@
 .main__img img {
   width: 300px;
   border-radius: 15px;
+  height: 300px;
+  object-fit: contain;
 }
 
 .main__container {
@@ -104,6 +106,5 @@ transition: ease-out .5s all;
   cursor: pointer;
   border: 1px solid rgb(255, 0, 221);
   filter: invert(18%) sepia(100%) saturate(2452%) hue-rotate(294deg) brightness(117%) contrast(128%);
-
 }
 

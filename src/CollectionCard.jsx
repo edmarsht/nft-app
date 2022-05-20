@@ -5,7 +5,9 @@ import weth from "./assets/weth.png";
 function CollectionCard({ id, name, traits, image }) {
   return (
     <div className="collection">
-      <img src={image} alt="" />
+      <div className="collection__img">
+        <img src={image} alt="" />
+      </div>
       <div className="collection__padding">
         <div className="details"></div>
         <div className="name">

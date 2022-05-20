@@ -13,8 +13,12 @@
 
 .collection img {
   width: 100%;
-  padding: 0;
-  
+  padding: 0;  
+}
+
+.collection__img img {
+  height: 300px;
+  object-fit: contain;
 }
 
 .name {

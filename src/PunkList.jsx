@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import CollectionCard from "./CollectionCard";
 import "./PunkList.css";
+
+
+
+
 
 const PunkList = ({ punkListData, setSelectedPunk }) => {
   return (
